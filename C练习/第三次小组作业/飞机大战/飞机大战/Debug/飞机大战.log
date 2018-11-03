@@ -1,0 +1,14 @@
+﻿  源.cpp
+c:\users\17616\desktop\exercise\计算机作业\飞机大战\飞机大战\飞机大战\源.cpp(51): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+c:\users\17616\desktop\exercise\计算机作业\飞机大战\飞机大战\飞机大战\源.cpp(52): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+c:\users\17616\desktop\exercise\计算机作业\飞机大战\飞机大战\飞机大战\源.cpp(54): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+c:\users\17616\desktop\exercise\计算机作业\飞机大战\飞机大战\飞机大战\源.cpp(55): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+c:\users\17616\desktop\exercise\计算机作业\飞机大战\飞机大战\飞机大战\源.cpp(56): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+c:\users\17616\desktop\exercise\计算机作业\飞机大战\飞机大战\飞机大战\源.cpp(57): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+c:\users\17616\desktop\exercise\计算机作业\飞机大战\飞机大战\飞机大战\源.cpp(61): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+c:\users\17616\desktop\exercise\计算机作业\飞机大战\飞机大战\飞机大战\源.cpp(62): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+c:\users\17616\desktop\exercise\计算机作业\飞机大战\飞机大战\飞机大战\源.cpp(64): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+c:\users\17616\desktop\exercise\计算机作业\飞机大战\飞机大战\飞机大战\源.cpp(67): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+c:\users\17616\desktop\exercise\计算机作业\飞机大战\飞机大战\飞机大战\源.cpp(80): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\users\17616\desktop\exercise\计算机作业\飞机大战\飞机大战\飞机大战\源.cpp(85): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+  飞机大战.vcxproj -> C:\Users\17616\Desktop\exercise\计算机作业\飞机大战\飞机大战\Debug\飞机大战.exe
