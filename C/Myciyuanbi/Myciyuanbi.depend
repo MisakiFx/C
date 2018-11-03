@@ -1,0 +1,47 @@
+# depslib dependency file v1.0
+1516614557 source:c:\users\dell\desktop\exercise\c\myciyuanbi\game.c
+	"Game.h"
+	"GameLib.h"
+
+1516615175 c:\users\dell\desktop\exercise\c\myciyuanbi\game.h
+	<stdio.h>
+	<string.h>
+	<windows.h>
+	<time.h>
+	<stdlib.h>
+	<conio.h>
+
+1516529428 source:c:\users\dell\desktop\exercise\c\myciyuanbi\gamelib.c
+	"GameLib.h"
+
+1516462539 c:\users\dell\desktop\exercise\c\myciyuanbi\gamelib.h
+	<stdio.h>
+	<windows.h>
+
+1516532640 source:c:\users\dell\desktop\exercise\c\myciyuanbi\main.c
+	"Game.h"
+	"GameLib.h"
+
+1520873322 source:d:\c\myciyuanbi\game.c
+	"Game.h"
+	"GameLib.h"
+
+1520873489 d:\c\myciyuanbi\game.h
+	<stdio.h>
+	<string.h>
+	<windows.h>
+	<time.h>
+	<stdlib.h>
+	<conio.h>
+
+1516462540 d:\c\myciyuanbi\gamelib.h
+	<stdio.h>
+	<windows.h>
+
+1520873443 source:d:\c\myciyuanbi\gamelib.c
+	"GameLib.h"
+
+1520873035 source:d:\c\myciyuanbi\main.c
+	"Game.h"
+	"GameLib.h"
+

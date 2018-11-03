@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1514198524 source:c:\users\dell\desktop\exercise\练习\英雄（结构体练习）\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Hero.h"
+
+1514197918 c:\users\dell\desktop\exercise\练习\英雄（结构体练习）\hero.h
+	<stdio.h>
+	<stdlib.h>
+
+1514198510 source:c:\users\dell\desktop\exercise\练习\英雄（结构体练习）\hero.c
+	"Hero.h"
+
+1514198510 source:c:\users\dell\desktop\exercise\c\英雄（结构体练习）\hero.c
+	"Hero.h"
+
+1514197918 c:\users\dell\desktop\exercise\c\英雄（结构体练习）\hero.h
+	<stdio.h>
+	<stdlib.h>
+
+1514198524 source:c:\users\dell\desktop\exercise\c\英雄（结构体练习）\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Hero.h"
+
