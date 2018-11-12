@@ -9,9 +9,9 @@
  *
 */
 #define _CRT_SECURE_NO_WARNINGS
-#define ROW 4
-#define COL 4
-#define WIN 4
+#define ROW 3
+#define COL 3
+#define WIN 3
 #include <stdio.h>
 #include <stdlib.h>
 #include <windows.h>
@@ -117,8 +117,8 @@ void computerMove(int* row, int* col)
 	int colt = 0;
 	while (1)
 	{
-		rowt = rand() % (ROW - 1);
-		colt = rand() % (COL - 1);
+		rowt = rand() % (ROW);
+		colt = rand() % (COL);
 		if (g_board[rowt][colt] == ' ')
 		{
 			break;
