@@ -9,9 +9,9 @@
  *
 */
 #define _CRT_SECURE_NO_WARNINGS
-#define ROW 3
-#define COL 3
-#define WIN 3
+#define ROW 5
+#define COL 5
+#define WIN 5
 #include <stdio.h>
 #include <stdlib.h>
 #include <windows.h>
