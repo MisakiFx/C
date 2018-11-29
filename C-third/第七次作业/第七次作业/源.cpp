@@ -75,25 +75,25 @@ int digitSum(int num)
 	}
 	return sum += num % 10 + digitSum(num / 10);
 }
-///*
-//将字符串中的字符反向排列
-//参数：字符串
-//*/
-//char* reverse_string(char* string)
-//{
-//	int len = 0;
-//	while (string[len] != '\0')
-//	{
-//		len++;
-//	}
-//	static char* p = (char*)malloc(sizeof(char) * (len + 1));
-//	if (len <= 0)
-//	{
-//		return string;
-//	}
-//	int i = 0;
-//	p[i] = string[len - 1];
-//}
+/*
+将字符串中的字符反向排列
+参数：字符串
+*/
+char* reverse_string(char* string)
+{
+	int len = 0;
+	while (string[len] != '\0')
+	{
+		len++;
+	}
+	static char* p = (char*)malloc(sizeof(char) * (len + 1));
+	if (len <= 0)
+	{
+		return string;
+	}
+	int i = 0;
+	p[i] = string[len - 1];
+}
 /*
 递归实现读取字符串长度
 参数：字符串
@@ -128,7 +128,7 @@ int strlenIteration(const char* string)
 */
 int factorialRecursion(int num)
 {
-	if (num == 1)
+	if (num == 1 || num == 0)
 	{
 		return 1;
 	}
@@ -141,6 +141,10 @@ int factorialRecursion(int num)
 */
 int factorialInteration(int num)
 {
+	if (num == 0)
+	{
+		return 1;
+	}
 	int mix = 1;
 	while (num != 1)
 	{
@@ -176,15 +180,15 @@ void reverse_string(const char* string)
 }
 int main()
 {
-	//printf("输出Fib数列第5个数：%d（递归版）\n", fibRecursion(5));//递归版实现
-	//printf("输出Fib数列第5个数：%d（迭代版）\n", fibIteration(5));//迭代版实现
-	//printf("\n");
-	///***********************************************************************/
-	//printf("6的立方是：%d\n", powNum(6, 3));
-	//printf("\n");
-	///***********************************************************************/
-	//printf("123各位数字的和为：%d\n", digitSum(123));
-	//printf("\n");
+	printf("输出Fib数列第5个数：%d（递归版）\n", fibRecursion(5));//递归版实现
+	printf("输出Fib数列第5个数：%d（迭代版）\n", fibIteration(5));//迭代版实现
+	printf("\n");
+	/***********************************************************************/
+	printf("6的立方是：%d\n", powNum(6, 3));
+	printf("\n");
+	/***********************************************************************/
+	printf("123各位数字的和为：%d\n", digitSum(123));
+	printf("\n");
 	/***********************************************************************/
 	printf("\"123456\"的长度是%d（递归版）\n", strlenRecursion("123456"));
 	printf("\"123456\"的长度是%d（迭代版）\n", strlenIteration("123456"));
