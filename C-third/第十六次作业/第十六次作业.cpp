@@ -12,7 +12,7 @@ int Strcpy(char* a, char* b)
     {
         return -1;
     }
-    int i;
+    size_t i;
     for(i = 0; i < strlen(b); i++)
     {
         a[i] = b[i];
@@ -29,8 +29,8 @@ int Strcat(char* str1, char* str2)
     {
         return -1;
     }
-    int a = strlen(str1);
-    int b = strlen(str2) + 1;
+    size_t a = strlen(str1);
+    size_t = strlen(str2) + 1;
     for(int i = 0; i < b; i++)
     {
         str1[a] = str2[i];
@@ -74,6 +74,7 @@ const char* Strstr(const char* str1, const char* str2)
 */
 const char* Strchr(const char* str1, int character)
 {
+    assert(str1 != NULL);
     const char* p = str1;
     while(*p != '\0' && *p != character)
     {
