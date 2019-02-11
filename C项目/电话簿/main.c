@@ -158,7 +158,20 @@ void FindAddressBook(AddressBook* addr_book)
 //排序
 void SortAddressBook(AddressBook* addr_book)
 {
-  return;
+  assert(addr_book != NULL);
+  for(int i = 0; i < addr_book->size - 1; i++)//冒泡排序
+  {
+    for(int j = 0; j < addr_book->size - i - 1; j++)
+    {
+      if(strcmp(addr_book->infos[j].name, addr_book->infos[j + 1].name) > 0)
+      {
+        AddressInfo temp = addr_book->infos[j];
+        addr_book->infos[j] = addr_book->infos[j + 1];
+        addr_book->infos[j + 1] = temp;
+      }
+    }
+  }
+  printf("排序完成！\n");
 }
 //打印全部
 void PrintAllAddressBook(AddressBook* addr_book)
@@ -173,7 +186,7 @@ void PrintAllAddressBook(AddressBook* addr_book)
   printf("共显示了%d条数据！\n", addr_book->size);
   return;
 }
-//清楚全部
+//清除全部
 void ClearAllAddressBook(AddressBook* addr_book)
 {
   assert(addr_book != NULL);
