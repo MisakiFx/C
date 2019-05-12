@@ -19,7 +19,7 @@ int menu()
 	printf("\t\t\t\t\t8、清空维修记录！\n");
 	printf("\t\t\t\t\t0、退出系统！\n");
 	printf("请选择:");
-	scanf_s("%d", &choose);
+	scanf("%d", &choose);
 	switch (choose)
 	{
 	case 1:
@@ -98,17 +98,17 @@ void addHead()
 {
 	Equipment* p = (Equipment*)malloc(sizeof(Equipment));
 	printf("请输入设备的编号：");
-	scanf_s("%d", &p->data.ID);
+	scanf("%d", &p->data.ID);
 	printf("请输入设备的名称：");
-	scanf_s("%s", p->data.name, 50);
+	scanf("%s", p->data.name, 50);
 	printf("请输入设备的型号：");
-	scanf_s("%s", p->data.kind, 20);
+	scanf("%s", p->data.kind, 20);
 	printf("请输入设备的厂家：");
-	scanf_s("%s", p->data.manufacturer, 50);
+	scanf("%s", p->data.manufacturer, 50);
 	printf("请输入设备购买的日期（年月日中间以空格隔开）：");
-	scanf_s("%d", &p->data.buyYear);
-	scanf_s("%d", &p->data.buyMonth);
-	scanf_s("%d", &p->data.buyDay);
+	scanf("%d", &p->data.buyYear);
+	scanf("%d", &p->data.buyMonth);
+	scanf("%d", &p->data.buyDay);
 	printf("请输入设备状态(0:待维修;1:正常)：");
 	scanf("%d", &p->data.state);
 	p->next = equipment;
@@ -147,7 +147,7 @@ void printMenu()
 	int choose;
 	printf("\t\t\t\t\t1、按ID从小到大显示！\n");
 	printf("\t\t\t\t\t2、按ID从大到小显示！\n");
-	scanf_s("%d", &choose);
+	scanf("%d", &choose);
 	switch (choose)
 	{
 	case 1:
@@ -260,17 +260,17 @@ void modify()
 	else
 	{
 		printf("请输入设备修改后的编号：");
-		scanf_s("%d", &p->data.ID);
+		scanf("%d", &p->data.ID);
 		printf("请输入设备修改后的名称：");
-		scanf_s("%s", p->data.name, 50);
+		scanf("%s", p->data.name, 50);
 		printf("请输入设备修改后的型号：");
-		scanf_s("%s", p->data.kind, 20);
+		scanf("%s", p->data.kind, 20);
 		printf("请输入设备修改后的厂家：");
-		scanf_s("%s", p->data.manufacturer, 50);
+		scanf("%s", p->data.manufacturer, 50);
 		printf("请输入设备修改后购买的日期（年月日中间以空格隔开）：");
-		scanf_s("%d", &p->data.buyYear);
-		scanf_s("%d", &p->data.buyMonth);
-		scanf_s("%d", &p->data.buyDay);
+		scanf("%d", &p->data.buyYear);
+		scanf("%d", &p->data.buyMonth);
+		scanf("%d", &p->data.buyDay);
 		printf("请输入设备状态(0:待维修;1:正常)：");
 		scanf("%d", &p->data.state);
 	}

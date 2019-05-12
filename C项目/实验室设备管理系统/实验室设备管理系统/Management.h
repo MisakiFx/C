@@ -33,7 +33,7 @@ typedef struct _maintain_data
 typedef struct _maintain
 {
 	MaintainData data;
-	struct _maintain* next = NULL;
+	struct _maintain* next;
 }Maintain;
 /**
 设备类结构
