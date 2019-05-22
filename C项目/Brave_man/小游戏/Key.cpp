@@ -6,11 +6,11 @@ extern Panel* menuPanel;
 extern int isOver;
 Key* personKey = NULL;
 Key* menuKey = NULL;
-const char* music[] = {
-	{"Music\\GameBGM1.wav"},
-	{"Music\\GameBGM2.wav"},
-	{"Music\\GameBGM3.wav"}
-};
+//const char* music[] = {
+//	{"Music\\GameBGM1.wav"},
+//	{"Music\\GameBGM2.wav"},
+//	{"Music\\GameBGM3.wav"}
+//};
 /**
 找到当前选项
 */
@@ -75,9 +75,9 @@ void menuKey_enter(char a)
 	switch (index)
 	{
 		case 0:
-			index2 = rand() % 3;
+			/*index2 = rand() % 3;
 			PlaySound(music[index2],
-				NULL, SND_FILENAME | SND_ASYNC | SND_LOOP);
+				NULL, SND_FILENAME | SND_ASYNC | SND_LOOP);*/
 			gameStart();
 			isOver = 1;
 			break;

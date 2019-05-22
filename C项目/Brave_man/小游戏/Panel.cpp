@@ -299,8 +299,8 @@ void setColor(int color)
 */
 void dead()
 {
-	PlaySound(TEXT("Music\\GameOver.wav"),
-		NULL, SND_FILENAME | SND_ASYNC);
+	/*PlaySound(TEXT("Music\\GameOver.wav"),
+		NULL, SND_FILENAME | SND_ASYNC);*/
 	setCursorPosition(50, 12);
 	setColor(0xF4);
 	printf("Game Over!!");
@@ -312,8 +312,8 @@ void dead()
 	printf("scaore:%3d", score);
 	setCursorPosition(100, 13);
 	printf("speed: %3d ", 10 - speed);
-	PlaySound(TEXT("Music\\MenuBGM.wav"),
-		NULL, SND_FILENAME | SND_ASYNC | SND_LOOP);
+	/*PlaySound(TEXT("Music\\MenuBGM.wav"),
+		NULL, SND_FILENAME | SND_ASYNC | SND_LOOP);*/
 	drawPanelBackGround();
 	Stone* p = stone;
 	Stone* t;
@@ -384,8 +384,8 @@ void messagePrint()
 void caiDan()
 {
 	drawPanelBackGround();
-	PlaySound(TEXT("Music\\caidan.wav"),
-		NULL, SND_FILENAME | SND_ASYNC);
+	/*PlaySound(TEXT("Music\\caidan.wav"),
+		NULL, SND_FILENAME | SND_ASYNC);*/
 	setColor(0xF4);
 	setCursorPosition(45, 13);
 	printf("张博翔倾力制作！");
@@ -421,8 +421,8 @@ void gameInstruction()
 			if (caidan >= 10)
 			{
 				caiDan();
-				PlaySound(TEXT("Music\\MenuBGM.wav"),
-					NULL, SND_FILENAME | SND_ASYNC | SND_LOOP);
+				/*PlaySound(TEXT("Music\\MenuBGM.wav"),
+					NULL, SND_FILENAME | SND_ASYNC | SND_LOOP);*/
 				break;
 			}
 		}

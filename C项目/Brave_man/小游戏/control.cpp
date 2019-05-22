@@ -23,8 +23,8 @@ void gameControl()
 	disableCurrsole();
 	menuPanelInit();
 	drawPanelBackGround();
-	PlaySound("Music\\MenuBGM.wav",
-		NULL, SND_FILENAME | SND_ASYNC | SND_LOOP);
+	/*PlaySound("Music\\MenuBGM.wav",
+		NULL, SND_FILENAME | SND_ASYNC | SND_LOOP);*/
 	while (menu())
 	{
 
